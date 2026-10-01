@@ -1,0 +1,51 @@
+# OS clutter
+.DS_Store
+._*
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Node / web
+node_modules/
+dist/
+.vite/
+
+# Rust
+target/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# NMRPipe installers and binaries are never committed
+NMRPipeX.tZ
+s.tZ
+dyn.tZ
+talos.tZ
+install.com
+binval.com
+nmrbin.*/
+
+# Processing scratch output (golden references live under tests/fixtures/golden/)
+*.fid
+*.ft1
+*.ft2
+*.ft3
+*.ft4
+*.ucsf
+!tests/fixtures/golden/**
+
+# MkDocs build
+site/

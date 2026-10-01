@@ -1,4 +1,10 @@
-# NMRdock
+# nmr-next
+
+> **This fork is being rebuilt.** `nmr-next` turns NMRdock into a modern bioNMR processing platform: a refreshed NMRPipe container behind an API, database and web app (Goal 1), followed by a Rust processing engine (Goal 2). See [`docs/plan.md`](docs/plan.md) for the plan and [`CLAUDE.md`](CLAUDE.md) for how work in this repo is done.
+>
+> The instructions below describe the **original** NMRdock image (`compbiocore/nmrdock`) and still work for it until the new images land.
+
+## Original NMRdock
 
 ## NMR Docker Image Instructions
 
